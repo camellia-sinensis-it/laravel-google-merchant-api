@@ -18,8 +18,8 @@
     ],
     "require": {
         "php": "^7.2|^8.0",
-        "illuminate/support": "~5.0|^6.0|^7.0|^8.0|^9.0|^10.0",
-        "illuminate/cache": "~5.0|^6.0|^7.0|^8.0|^9.0|^10.0",
+        "illuminate/support": "^10.0|^11.0|^12.0|^13.0",
+        "illuminate/cache": "^10.0|^11.0|^12.0|^13.0",
         "guzzlehttp/guzzle":"~5.3|^6.5|^7.0",
         "google/apiclient": "^2.0"
     },
@@ -38,5 +38,8 @@
                 "ProductsApi": "MOIREI\\GoogleMerchantApi\\Facades\\ProductsApi"
             }
         }
+    },
+    "require-dev": {
+        "laravel/boost": "dev-main"
     }
 }
