@@ -639,7 +639,7 @@ class Product extends BaseContent
     public function customValues(array $customValues)
     {
         foreach($customValues as $customValue){
-            $this->custom($customValues);
+            $this->custom($customValue);
         }
 
         return $this;
